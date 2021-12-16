@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.20)
+project(poj_problem)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(1852-Ants poj/1852-Ants.cpp)
+add_executable(2386-lake-counting poj/2386-lake-counting.cpp)
+add_executable(shortestPathOfMaze poj/learn/shortestPathOfMaze.cpp)
+add_executable(permutation poj/learn/permutation.cpp)
+add_executable(coin poj/learn/coin.cpp)
+add_executable(intervalSchedual poj/learn/intervalSchedual.cpp)
+add_executable(3617-Best-Cow-Line poj/3617-Best-Cow-Line.cpp)
+add_executable(3069-saruman-s-army poj/3069-saruman-s-army.cpp)
+add_executable(3299-humidex poj/3299-humidex.cpp)
+add_executable(3253-Fence-Repair poj/3253-Fence-Repair.cpp)
