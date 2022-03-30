@@ -49,16 +49,10 @@ public:
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 if (board[i][j] == 'X') {
-                    ans++;
-                    if (i + 1 < m && board[i + 1][j] == 'X') {
-                        for (int k = i + 1; k < m && board[k][j] == 'X'; k++) {
-                            board[k][j] = '.';
-                        }
-                    } else if (j + 1 < n && board[i][j + 1] == 'X') {
-                        for (int k = j + 1; k < n && board[i][k] == 'X'; k++) {
-                            board[i][k] = '.';
-                        }
-                    }
+                    if (i - 1 >= 0 && board[i - 1][j] == 'X'
+                        || j - 1 >= 0 && board[i][j - 1] == 'X')
+                        continue;
+                    ++ans;
                 }
             }
         }
