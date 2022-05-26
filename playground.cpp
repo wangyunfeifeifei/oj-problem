@@ -4,19 +4,15 @@
 #include <sstream>
 #include <vector>
 #include <map>
+#include <tuple>
+
 
 using namespace std;
 
-int maxTrailingZeros(vector<vector<int>>& grid) {
-    int maxZero=0;
-    int m = grid.size();
-    int n = grid[0].size();
-    for (int i = 0; i < m; i++) {
-
-    }
-}
-
 int main() {
+    int a, b;
+    tie(ignore, a, b) = make_tuple(3.3, 1, 2);
+    cout << a << " " << b << endl;
 
     return 0;
 }
