@@ -2,15 +2,23 @@
 // Created by wang on 2021/12/15.
 //
 
-#ifndef POJ_PROBLEM_HEADERS_H
-#define POJ_PROBLEM_HEADERS_H
+#ifndef HEADERS_H
+#define HEADERS_H
 
 #include <vector>
 #include <algorithm>
 #include <map>
+#include <set>
+#include <unordered_map>
+#include <unordered_set>
 #include <queue>
+#include <string>
+#include <sstream>
 
-struct TreeNode {
+using namespace std;
+
+struct TreeNode
+{
     int val;
     TreeNode *left;
     TreeNode *right;
@@ -22,4 +30,4 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-#endif //POJ_PROBLEM_HEADERS_H
+#endif // HEADERS_H
