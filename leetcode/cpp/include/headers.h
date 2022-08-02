@@ -6,6 +6,7 @@
 #define HEADERS_H
 
 #include <algorithm>
+#include <cctype>
 #include <iostream>
 #include <map>
 #include <queue>
