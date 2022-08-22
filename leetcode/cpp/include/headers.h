@@ -7,6 +7,7 @@
 
 #include <algorithm>
 #include <cctype>
+#include <ctime>
 #include <iostream>
 #include <map>
 #include <numeric>
