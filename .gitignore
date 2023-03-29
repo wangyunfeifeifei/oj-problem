@@ -4,3 +4,4 @@
 *.exe
 cmake-build*
 .fleet
+input.txt
